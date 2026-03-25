@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction AI
 
-![Heart AI Banner](assets/heart_banner.png)
+![Heart AI Banner](docs/assets/heart_banner.png)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange.svg)](https://scikit-learn.org/)
@@ -25,7 +25,7 @@ Heart disease remains one of the leading causes of mortality globally. This AI-p
 
 ## 📊 Performance & Insights
 
-![Accuracy Dashboard](assets/accuracy_dashboard.png)
+![Accuracy Dashboard](docs/assets/accuracy_dashboard.png)
 
 The project underwent rigorous testing using various classification models. **Random Forest** consistently outperformed others, particularly in binary classification tasks.
 
@@ -37,7 +37,7 @@ The project underwent rigorous testing using various classification models. **Ra
 ### 🔍 Top Risk Indicators
 Based on our model's **Feature Importance** analysis, these are the strongest predictors:
 
-![Feature Importance Chart](assets/feature_importance.png)
+![Feature Importance Chart](docs/assets/feature_importance.png)
 
 1. **Chest Pain type (cp)**: Often the highest indicator of clinical risk.
 2. **Number of major vessels (ca)**: Crucial diagnostic metric from fluoroscopy.
