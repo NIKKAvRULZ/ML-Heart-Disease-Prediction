@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction AI
 
-![Heart AI Banner](docs/assets/heart_banner.png)
+<img src="docs/assets/heart_banner.png" alt="Heart AI Banner" width="100%">
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange.svg)](https://scikit-learn.org/)
