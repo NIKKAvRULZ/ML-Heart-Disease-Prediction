@@ -13,7 +13,26 @@ This project leverages **Advanced Machine Learning** to predict the likelihood o
 
 ## 🚀 Project Overview
 
-Heart disease remains one of the leading causes of mortality globally. This AI-powered solution analyzes critical health metrics like **resting blood pressure**, **cholesterol levels**, and **maximum heart rate** to provide a rapid risk assessment.
+Heart disease remains one of the leading causes of mortality globally. This AI-powered solution analyzes critical health metrics to provide a rapid risk assessment. The study was conducted on the UCI Heart Disease dataset, focusing on 14 specific clinical attributes.
+
+### 📋 Data Dictionary
+| Attribute | Medical Description |
+|:---|:---|
+| **age** | Age of the patient (years) |
+| **sex** | Gender (1=Male, 0=Female) |
+| **cp** | Chest pain type (Typical, Atypical, Non-anginal, Asymptomatic) |
+| **trestbps** | Resting blood pressure (mm Hg) |
+| **chol** | Serum cholesterol (mg/dl) |
+| **fbs** | Fasting blood sugar > 120 mg/dl (1=True, 0=False) |
+| **restecg** | Resting ECG results |
+| **thalach** | Maximum heart rate achieved |
+| **exang** | Exercise induced angina (1=Yes, 0=No) |
+| **oldpeak** | ST depression induced by exercise |
+| **slope** | Slope of peak exercise ST segment |
+| **ca** | Number of major vessels (0-3) colored by flourosopy |
+| **thal** | Thalassemia (Normal, Fixed defect, Reversable defect) |
+| **num** | Target: Diagnosis of heart disease (0=Healthy, 1-4=Disease) |
+
 
 ### 🌟 Key Features
 - **High-Precision Prediction**: Achieves **88.33% accuracy** in binary classification (Sick vs. Healthy).
@@ -27,7 +46,12 @@ Heart disease remains one of the leading causes of mortality globally. This AI-p
 
 ![Accuracy Dashboard](docs/assets/accuracy_dashboard.png)
 
-The project underwent rigorous testing using various classification models. **Random Forest** consistently outperformed others, particularly in binary classification tasks.
+The project involved training a **Random Forest Classifier** with hyperparameter tuning (optimizing the number of trees). Data preprocessing included handling hidden missing values (marked as '?') and feature scaling via `StandardScaler`.
+
+* **Raw Dataset**: 303 patients
+* **Cleaned Dataset**: 297 patients
+* **Test Split**: 20% (60 patients)
+
 
 | Classification Type | Model Used | Accuracy | Precision | Recall | F1-Score |
 |:---:|:---:|:---:|:---:|:---:|:---:|
